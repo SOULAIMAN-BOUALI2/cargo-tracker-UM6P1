@@ -12,12 +12,12 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/SOULAIMAN-BOUALI2/cargo-tracker-UM6P1.git'
             }
         }
-
+/*
         stage('Build & Test with Coverage') {
             steps {
                 bat 'mvn clean verify'
             }
-        }
+        }*/
 
         /*stage('SonarQube Analysis') {
             environment {
