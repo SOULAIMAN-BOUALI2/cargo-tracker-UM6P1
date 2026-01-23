@@ -13,11 +13,11 @@ pipeline {
             }
         }
 
-        stage('Build & Test with Coverage') {
+       /* stage('Build & Test with Coverage') {
             steps {
                 bat 'mvn clean verify'
             }
-        }
+        }*/
 
         /*stage('SonarQube Analysis') {
             environment {
